@@ -1,3 +1,9 @@
+""" Main program to run the binary clock """
+__author__ = "David Ordemann / Paige Meyer"
+__date__ = "January 2015"
+
+
+
 from clockFunctions import *
 from clockLightSetup import *
 

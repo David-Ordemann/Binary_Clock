@@ -1,3 +1,9 @@
+""" Contains all of the functions used in the Main program to run the clock """
+__author__ = "David Ordemann / Paige Meyer"
+__date__ = "January 2015"
+
+
+
 from clockLightSetup import *
 from time import strftime
 import RPi.GPIO as GPIO

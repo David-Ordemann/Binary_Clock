@@ -1,5 +1,10 @@
-import RPi.GPIO as GPIO
+""" Sets up all the pins for the clock """
+__author__ = "David Ordemann / Paige Meyer"
+__date__ = "January 2015"
 
+
+
+import RPi.GPIO as GPIO
 
 
 
