@@ -43,7 +43,7 @@ while True:
     '''
     
     if tmpSec1 != tmpSec2:
-        print("seconds:", tmpSec1)
+        print("seconds:", tmpSec1) # prints seconds to terminal for testing
         lightSecondsOnes(str(getSecondsOnesPlace()))
         lightSecondsTens(str(getSecondsTensPlace()))
         tmpSec1 = tmpSec2
@@ -58,7 +58,7 @@ while True:
 	ctMinutes += 1
 
     if tmpMin1 != tmpMin2:
-        print("minutes:", tmpMin1)
+        print("minutes:", tmpMin1) # prints minutes to terminal for testing
 	lightMinutesOnes(str(getMinutesOnesPlace()))
 	lightMinutesTens(str(getMinutesTensPlace()))
 	tmpMin1 = tmpMin2
@@ -73,7 +73,7 @@ while True:
 	ctHours += 1
 
     if tmpHr1 != tmpHr2:
-        print("hours:", tmpHr1)
+        print("hours:", tmpHr1) # prints hours to terminal for testing
 	lightHoursOnes(str(getHoursOnesPlace()))
 	lightHoursTens(str(getHoursTensPlace()))
 	lightAMorPM(getAMorPM())

@@ -300,7 +300,7 @@ def lightAMorPM(string):
 	GPIO.output(gpioCE1, 0)  # turn off gpioCE1 when morning
 
     elif string == "PM":
-	GPIO.output(gpioCE1, 1)  # turn off gpioCE1 when afternoon / evening
+	GPIO.output(gpioCE1, 1)  # turn on gpioCE1 when afternoon / evening
 
 
     

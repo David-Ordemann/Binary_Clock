@@ -64,7 +64,7 @@ gpio13 = 33 # assigning gpio13 to 33
 
 gpio19 = 35 #assigning gpio19 to 35
 
-gpio26 = 37 #assigning spio26 to 37
+gpio26 = 37 #assigning gpio26 to 37
 
 
 gpioCE0 = 24 #assigning gpioCE0 to 24
