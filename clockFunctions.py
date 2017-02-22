@@ -174,13 +174,12 @@ def dec_to_bin(x):
 
 
 
-'''
-
-lights the four LEDs for the ones in the seconds....
-
-'''
 
 def lightSecondsOnes(binString):
+    '''
+    Description: lights the four LEDs for the ones in the seconds
+    Pre-Conditions: Must be passed a string of length 4 that represents a binary number.
+    '''
 
     GPIO.output(gpio22, int(binString[0]))  # turn on/off gpio22
 
@@ -193,14 +192,11 @@ def lightSecondsOnes(binString):
 
 
 
-
-'''
-
-lights the three LEDs for the tens in the seconds....
-
-'''
-
 def lightSecondsTens(binString):
+    '''
+    Description: lights the three LEDs for the tens in the seconds
+    Pre-Conditions: Must be passed a string of length 4 that represents a binary number.
+    '''
 
     binString = binString[1:4]
 
@@ -213,14 +209,11 @@ def lightSecondsTens(binString):
 
 
 
-
-'''
-
-lights the four LEDs for the ones in the minutes....
-
-'''
-
 def lightMinutesOnes(binString):
+    '''
+    Description: lights the four LEDs for the ones in the minutes
+    Pre-Conditions: Must be passed a string of length 4 that represents a binary number.
+    '''
 
     GPIO.output(gpio12, int(binString[0]))  # turn on/off gpio12
 
@@ -233,14 +226,11 @@ def lightMinutesOnes(binString):
 
 
 
-
-'''
-
-lights the three LEDs for the tens in the minutes....
-
-'''
-
 def lightMinutesTens(binString):
+    '''
+    Description: lights the three LEDs for the tens in the minutes
+    Pre-Conditions: Must be passed a string of length 4 that represents a binary number.
+    '''
 
     binString = binString[1:4]
 
@@ -253,14 +243,11 @@ def lightMinutesTens(binString):
 
 
 
-
-'''
-
-lights the four LEDs for the ones in the hours....
-
-'''
-
 def lightHoursOnes(binString):
+    '''
+    Description: lights the four LEDs for the ones in the hours
+    Pre-Conditions: Must be passed a string of length 4 that represents a binary number.
+    '''
 
     GPIO.output(gpio26, int(binString[0]))  # turn on/off gpio26
 
@@ -273,13 +260,11 @@ def lightHoursOnes(binString):
 
 
 
-'''
-
-lights the three LEDs for the tens in the hours....
-
-'''
-
 def lightHoursTens(binString):
+    '''
+    Description: lights the three LEDs for the tens in the hours
+    Pre-Conditions: Must be passed a string of length 4 that represents a binary number.
+    '''
 
     binString = binString[3]
 
@@ -288,13 +273,11 @@ def lightHoursTens(binString):
 
 
 
-'''
-
-lights AM or PM light....
-
-'''
-
 def lightAMorPM(string):
+    '''
+    Description: lights AM or PM light
+    Pre-Conditions: Must be passed a string.
+    '''
     
     if string == "AM":
 	GPIO.output(gpioCE1, 0)  # turn off gpioCE1 when morning
