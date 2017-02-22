@@ -176,6 +176,7 @@ def dec_to_bin(x):
 
 
 def lightSecondsOnes(binString):
+	
     '''
     Description: lights the four LEDs for the ones in the seconds
     Pre-Conditions: Must be passed a string of length 4 that represents a binary number.
@@ -193,6 +194,7 @@ def lightSecondsOnes(binString):
 
 
 def lightSecondsTens(binString):
+	
     '''
     Description: lights the three LEDs for the tens in the seconds
     Pre-Conditions: Must be passed a string of length 4 that represents a binary number.
@@ -210,6 +212,7 @@ def lightSecondsTens(binString):
 
 
 def lightMinutesOnes(binString):
+	
     '''
     Description: lights the four LEDs for the ones in the minutes
     Pre-Conditions: Must be passed a string of length 4 that represents a binary number.
@@ -227,6 +230,7 @@ def lightMinutesOnes(binString):
 
 
 def lightMinutesTens(binString):
+	
     '''
     Description: lights the three LEDs for the tens in the minutes
     Pre-Conditions: Must be passed a string of length 4 that represents a binary number.
@@ -244,6 +248,7 @@ def lightMinutesTens(binString):
 
 
 def lightHoursOnes(binString):
+	
     '''
     Description: lights the four LEDs for the ones in the hours
     Pre-Conditions: Must be passed a string of length 4 that represents a binary number.
@@ -261,6 +266,7 @@ def lightHoursOnes(binString):
 
 
 def lightHoursTens(binString):
+	
     '''
     Description: lights the three LEDs for the tens in the hours
     Pre-Conditions: Must be passed a string of length 4 that represents a binary number.
@@ -274,6 +280,7 @@ def lightHoursTens(binString):
 
 
 def lightAMorPM(string):
+	
     '''
     Description: lights AM or PM light
     Pre-Conditions: Must be passed a string.
