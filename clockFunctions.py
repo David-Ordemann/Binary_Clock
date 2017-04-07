@@ -1,5 +1,5 @@
 """ Contains all of the functions used in the Main program to run the clock """
-__author__ = "David Ordemann / Paige Meyer"
+__author__ = "David Ordemann"
 __date__ = "January 2015"
 
 
