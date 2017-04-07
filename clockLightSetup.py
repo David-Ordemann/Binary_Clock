@@ -1,5 +1,5 @@
 """ Sets up all the pins for the clock """
-__author__ = "David Ordemann / Paige Meyer"
+__author__ = "David Ordemann"
 __date__ = "January 2015"
 
 
